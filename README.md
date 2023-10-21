@@ -4,6 +4,22 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Setup
 
+Make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
 ## ANTD
 @ant-design-vue/nuxt dependency to your project
 
@@ -26,22 +42,6 @@ npm install --save-dev @ant-design-vue/nuxt
 
 ```
 npm install --save @ant-design/icons-vue
-```
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
