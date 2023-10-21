@@ -61,6 +61,10 @@ interface FormState {
 const route = useRoute();
 const router = useRouter();
 
+definePageMeta({
+  layout: "login-layout"
+})
+
 const isLoading = ref(false);
 
 const formState = reactive<FormState>({
